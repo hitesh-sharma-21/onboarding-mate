@@ -107,3 +107,17 @@ margin-bottom: 25px;
 .l-card span{
     font-weight: 900;
 }
+@media only screen and (max-width: 770px) {
+    .cards {
+      width: 40vw;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .cards {
+      width: 40vw;
+    }
+    .cards{
+        width: 100vw;
+    }
+    
+}
