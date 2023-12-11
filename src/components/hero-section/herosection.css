@@ -1,0 +1,32 @@
+.hero{
+    /* width: 100vw;
+    height: 80vh; */
+    position: relative;
+    color: var(--white);
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center
+
+}
+.bg-video{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+.content{
+     width: 40vw; 
+     position: absolute; 
+     padding: 40px;
+     margin-left: 50px;
+}
+.content h1{
+    font-size: 4rem;
+    /* line-height: 2rem; */
+    min-height: auto;
+}
+.content p{
+    /* font-size: 1.rem; */
+    margin-top: 30px;
+}
