@@ -7,7 +7,7 @@ function HeroSection() {
    <div className="hero">
             <video autoPlay loop muted playsInline src={bgvideo} type='video/mp4'  className='bg-video'> </video>
         <div className="content">
-            <h1>Are you new to Germany?</h1>
+            <h1>Are you new to <br /> Germany?</h1>
             <p>Don't worry, we got your back! Let us connect you to <br /> the resources you need for a seamless transition into German life.</p>
         </div>
    </div>

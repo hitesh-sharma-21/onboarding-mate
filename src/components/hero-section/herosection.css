@@ -1,6 +1,4 @@
 .hero{
-    /* width: 100vw;
-    height: 80vh; */
     position: relative;
     color: var(--white);
     display: flex;
@@ -14,19 +12,37 @@
     height: 100%;
     width: 100%;
     overflow: hidden;
+    /* position: absolute; */
 }
 .content{
+    position: absolute;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: end;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.content p{
+    margin-top: inherit;
+    margin-left: inherit;
+}
+.content p{
+    display: flex;
+
+}
+.content h1{
+    font-size: 4rem;
+    min-height: auto;
+    width: fit-content;
+}
+/* .content{
      width: 40vw; 
      position: absolute; 
      padding: 40px;
      margin-left: 50px;
 }
-.content h1{
-    font-size: 4rem;
-    /* line-height: 2rem; */
-    min-height: auto;
-}
 .content p{
-    /* font-size: 1.rem; */
     margin-top: 30px;
-}
+} */
