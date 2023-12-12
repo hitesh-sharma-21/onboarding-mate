@@ -50,3 +50,20 @@ padding: 21px;
 .slider-content h3{
     text-align: center;
 }
+@media only screen and (max-width: 600px) {
+    .slider-section{
+       display: block;
+    }
+    .slider-cards{
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:770px){
+    .slider-section{
+        padding-top:unset
+    }
+    .slider-cards {
+        flex-wrap: wrap;
+    }
+}

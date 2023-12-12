@@ -59,6 +59,9 @@ width: 80px
         
         flex-wrap: wrap;
     }
+    .chooseus-section{
+        height: unset;
+    }
     
 }
 @media screen and (max-width:430px){

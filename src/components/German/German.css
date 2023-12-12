@@ -60,6 +60,7 @@ width: fit-content;
     color: #efb44b;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     padding: 10px 10px 0;
     gap: 30px;
 }
@@ -69,6 +70,7 @@ width: fit-content;
     padding: 100px 0px;
     display: flex;
     gap: 5vw;
+    flex-wrap: wrap;
     width: 80vw;
     margin: auto;
 }
@@ -100,7 +102,9 @@ width: fit-content;
     font-size: 45px;
 }
 .insurance-section-main-div .right-section p{
-    line-height: 1.4rem;
+    /* line-height: 2rem; */
+    font-size: 18px;
+    font-family: ' Merriweather, Georgia, '
 }
 .insurance-section-main-div .right-section h2{
    color: var(--heading);
@@ -108,3 +112,21 @@ width: fit-content;
 .money-transfer-section .insurance-section-main-div{
     flex-direction: row-reverse;
 }
+
+
+
+@media only screen and (max-width: 430px) {
+    .german-section{
+        flex-direction: column;
+        gap: 30px;
+    }
+    .german-desc{
+        width: unset
+    }
+    .german-services{
+        width: 100vw;
+    }
+    .insurance-section-main-div .left-section {
+        width: 100%
+    }
+  }
