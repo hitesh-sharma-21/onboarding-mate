@@ -7,6 +7,7 @@ import About from './components/About/About';
 import ChooseUs from './components/choose-section/ChooseUs';
 import Slider from './components/slidersection/Slider';
 import German from './components/German/German';
+import ContactUs from './components/ContactUs/ContactUs';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
   <ChooseUs/>
   <Slider/>
   <German/>
+  <ContactUs/>
   </>
   );
 }

@@ -1,0 +1,111 @@
+.contact-section{
+padding: 0px 0px;
+/* width:100vw; */
+background-color: #a8864b;
+    color: #fff;
+    height: 100vh;
+}
+.contact-main-div{
+    /* width: 80%; */
+    /* background: black; */
+    display: flex;
+    height: 100%;
+}
+.contact-left{
+    width: 50%;
+    height: 100%;        
+}
+.contact-right{
+    width: 50%;
+}
+.contact-left img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+}
+.contact-right{
+    background: var(--heading);
+    height: 100%;        
+}
+.form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.form{
+    color: var(--lightyellow);
+}
+.contact-right{
+    padding-top: 30px;
+    height: 100%;
+}
+.contact-right h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    width: 60%;
+}
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 25px 50px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    /* resize: vertical; */
+  }
+  ::placeholder {
+    color: var(--darkyellow);
+    font-size: 20px;
+  }
+ .form button {
+    background-color: var(--darkyellow);
+    color: white;
+    padding: 20px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 50px;
+  }
+
+
+/* 
+  .container {
+    border-radius: 5px;
+    /* background-color: #f2f2f2; */
+    /* padding: 20px; */
+  /* } */ 
+
+  .row {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .row > div {
+    width: 48%; 
+  }
+
+  @media only screen and (max-width: 770px) {
+   .contact-main-div{
+    /* flex-wrap: wrap; */
+    flex-direction: column;
+    /* flex-direction: column-reverse; */
+   }
+   .contact-left,.contact-right{
+    width: unset;
+    height: unset;
+   }
+   .contact-right{
+    padding: 20PX;
+   }
+  }
+  @media only screen and (max-width: 430px) {
+input[type=text], select, textarea {
+ padding: 20px;
+}
+}

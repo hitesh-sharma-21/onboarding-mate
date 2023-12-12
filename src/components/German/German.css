@@ -70,7 +70,7 @@ width: fit-content;
     padding: 100px 0px;
     display: flex;
     gap: 5vw;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     width: 80vw;
     margin: auto;
 }
@@ -119,14 +119,43 @@ width: fit-content;
     .german-section{
         flex-direction: column;
         gap: 30px;
+        padding: 10px 0px;
     }
     .german-desc{
         width: unset
     }
+    .german-desc p{
+        padding-right: unset; 
+     padding-bottom: 40px; 
+     font-size: unset
+    }
+    
+.german-desc h2 {
+    font-size: 20px;
+    color: #efb44b;
+}
     .german-services{
         width: 100vw;
     }
     .insurance-section-main-div .left-section {
         width: 100%
     }
-  }
+    .insurance-section-main-div {
+  flex-direction: column;
+  padding: 80px 0px;
+    }
+    .money-transfer-section .insurance-section-main-div {
+        flex-direction: column;
+    }
+    .german-section .read-more, .insurance-section-main-div .right-section .read-more {
+  
+        font-size: small;
+        line-height:unset;
+    }
+    
+
+.insurance-section-main-div .right-section p {
+    font-size: 16px;
+}
+
+}

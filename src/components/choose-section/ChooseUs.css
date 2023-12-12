@@ -30,7 +30,7 @@ align-items: center;
 .feature-card{
     box-shadow: 0 3px 81px 0 #00000017;
     width: 25%;
-    height: 400px;
+    min-height: 400px;
     background-color: white;
     border-radius: 50px;
     display: flex;
