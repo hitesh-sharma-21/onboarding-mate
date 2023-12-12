@@ -1,0 +1,94 @@
+.about-section{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: flex;
+    margin: 0px 60px;
+    gap: 60px;
+    /* width: 100vw; */
+}
+.about-desc{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin: 0px 20px;
+}
+.about-desc h1{
+    padding: 20px;
+    line-height: 3rem;
+    font-size: 3rem;
+    color: var(--heading);
+}
+.about-img{
+    background: var(--darkyellow);
+    width: unset;
+    height: unset;
+    position: relative;
+    height: calc(330px - 30px);
+    /* animation: moveupdown 2s  linear delay infinite direction fill-mode;
+    animation: name duration timing-function delay iteration-count direction fill-mode; */
+    animation-timing-function: linear;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-name: moveupdown;
+    z-index: 2;
+    animation-direction: alternate;
+    transition: all 0.3s linear;
+}
+.about-lg{
+    transform: translate(38px, -31px);
+}
+.about-sm{
+position: absolute;
+top: 19%;
+LEFT: -111PX;
+padding: 15px;
+background: white;
+animation-name:  moveleft;
+animation-duration: 4s;
+animation-iteration-count: infinite;
+/* animation-name: moveupdown; */
+/* z-index: 2; */
+animation-direction: alternate;
+transition: all .3s ease-out 0s;
+}
+.about-img .about-lg img{
+    height: 330px;
+}
+
+.about-desc .read-more{
+    font-size: 1.3rem;
+    padding: 14px 27px;
+    width: fit-content;
+    color: white;
+    background: var(--darkyellow);
+    border-radius: 50px;
+    border: none;
+}
+
+@keyframes moveupdown {
+    from{
+   /* top: 0px; */
+   bottom:  -60px;
+   /* top: 50px; */
+}to{
+    /* top :30px; */
+    bottom:  -20px;
+            /* top: 0px; */
+    }
+}
+
+@keyframes moveleft {
+    from{
+        left:-111px
+    }to{
+        
+        left:-60px;
+    }
+}
+
+@media screen  and (max-width:768px){
+    .about-section{
+            flex-direction: column;
+            overflow: hidden;
+    }
+}

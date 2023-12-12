@@ -37,9 +37,11 @@
 .nav-links li a:hover{
     color: var(--darkyellow);
 }
-@media only screen and (max-width: 500px) {
-.nav-links{
-    visibility: hidden;
-}
-    
-}
+@media only screen and (max-width: 953px) {
+    .nav-links {
+     display: none !important;
+    }
+    .nav-links li a{
+        color: black;
+    }
+  }
