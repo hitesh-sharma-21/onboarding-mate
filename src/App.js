@@ -4,6 +4,9 @@ import HeroSection from './components/hero-section/HeroSection';
 import Services from './components/services/Services';
 import NewNav from './components/newNav/NewNav';
 import About from './components/About/About';
+import ChooseUs from './components/choose-section/ChooseUs';
+import Slider from './components/slidersection/Slider';
+import German from './components/German/German';
 
 function App() {
   return (
@@ -12,6 +15,9 @@ function App() {
   <HeroSection/>
   <Services/>
   <About/>
+  <ChooseUs/>
+  <Slider/>
+  <German/>
   </>
   );
 }

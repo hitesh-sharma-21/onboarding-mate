@@ -1,0 +1,110 @@
+.german-section{
+    /* padding-top: 100px;
+    padding-bottom: 100px; */
+    background: var(--heading);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 100px 100px;
+}
+.german-section p{
+    color: #fff;
+    text-align: left;
+    line-height: 28px;
+}
+.german-desc h2{
+    font-size: 2.7rem;
+    color: #efb44b;
+}
+.german-section .german-desc{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.german-desc p{
+
+    padding-right: 50px;
+    /* padding-bottom: 40px; */
+    font-size: 17px;
+}
+.german-section .read-more, .insurance-section-main-div .right-section .read-more{
+    background-color: #efb44b!important;
+border: 1px solid #fff;
+border-radius: 50px!important;
+color: #fff!important;
+display: inline-block;
+font-family: Lato,serif;
+font-size: 18px;
+font-weight: 700;
+line-height: 1;
+padding: 22px 40px!important;
+text-transform: uppercase;
+width: fit-content;
+}
+.german-services{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.german-card{
+    background-color: #efb44b;
+    border-color: #fff!important;
+    padding: 10px;
+    border-radius: 50px;
+    text-align: center;
+    border: 1.5px solid white ;
+}
+.german-card-body{
+    align-items: center;
+    color: #efb44b;
+    display: flex;
+    justify-content: center;
+    padding: 10px 10px 0;
+    gap: 30px;
+}
+
+/* insurance section */
+.insurance-section-main-div{
+    padding: 100px 0px;
+    display: flex;
+    gap: 5vw;
+    width: 80vw;
+    margin: auto;
+}
+.left-section-img{
+    width: 100%;
+}
+.insurance-section-main-div .left-section{
+    width: 50%;
+}
+.insurance-section-main-div .left-section img{
+    width: 100%;
+    transform: translate(-34px, -34px);
+}
+.insurance-section-main-div .left-section-img{
+    width: 80%;
+    background-color: #efb44b;
+
+}
+
+.insurance-section-main-div .right-section{
+    width: 50%;
+}
+.insurance-section-main-div .right-section{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.insurance-section-main-div .right-section h2{
+    font-size: 45px;
+}
+.insurance-section-main-div .right-section p{
+    line-height: 1.4rem;
+}
+.insurance-section-main-div .right-section h2{
+   color: var(--heading);
+}
+.money-transfer-section .insurance-section-main-div{
+    flex-direction: row-reverse;
+}
