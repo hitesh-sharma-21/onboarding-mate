@@ -53,12 +53,19 @@ gap: 60px;
     width: 64px;
 }
 
-.footer-newsletter input[type='email']{
+/* .footer-newsletter input[type='email']{
     position: relative;
+} */
+.footer-newsletter{
+    position: relative;
+    width: fit-content;
 }
 .footer-newsletter button{
 position: absolute;
-right: 109px;
+/* right: 109px;
+ */
+ /* left:60%; */
+ left: max(60%,80%);
 }
 .social-media{
     color: #efb44b;
@@ -67,6 +74,9 @@ right: 109px;
 }
 .footer-copy{
     background-color: var(--heading);
+}
+.our-services .footer-flex{
+    width: auto;
 }
 
 @media only screen and (max-width: 1102px){

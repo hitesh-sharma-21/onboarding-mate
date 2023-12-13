@@ -73,6 +73,11 @@ border: none;
 text-align: start;
 margin-bottom: 25px;
 }
+.service-cards :hover{
+    background-color: #efb44b;
+    color: #fff;
+    transition: .3s;
+}
 .card-heading{
     color: var(--heading);
     font-size: 16px;
