@@ -2,12 +2,13 @@ import './App.css';
 import Nav from './components/nav/Nav';
 import HeroSection from './components/hero-section/HeroSection';
 import Services from './components/services/Services';
-import NewNav from './components/newNav/NewNav';
 import About from './components/About/About';
 import ChooseUs from './components/choose-section/ChooseUs';
 import Slider from './components/slidersection/Slider';
 import German from './components/German/German';
 import ContactUs from './components/ContactUs/ContactUs';
+import Footer from './components/Footer/Footer';
+import Faqs from './components/Faqs/Faqs';
 
 function App() {
   return (
@@ -20,6 +21,8 @@ function App() {
   <Slider/>
   <German/>
   <ContactUs/>
+  <Faqs/>
+  <Footer/>
   </>
   );
 }

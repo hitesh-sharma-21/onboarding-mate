@@ -17,9 +17,12 @@
 }
 .service-cards{
 display: flex;
-justify-content: space-around;
-margin: 0px 30px;
+/* justify-content: space-around; */
+/* margin: 0px 30px; */
 flex-wrap: wrap;
+max-width:85vw;
+margin: auto;
+gap: 20px;
 }
 .card-logo{
     background-color: #faf7e6;
@@ -79,15 +82,16 @@ margin-bottom: 25px;
 .l-card{
     padding:46px 30px;
     background: var(--darkyellow);
-    width: 40vw;
+    width: calc(100vw - 60vw);
     border-radius: 50px;
     font-weight: 400px;
     color: white;
 }
 .l-card h3{
-    font-size: 25px;
+    font-size: 30px;
 }
 .l-card p{
+    font-size: 20px;
     padding-top: 30px;
     padding-bottom: 30px;
 }

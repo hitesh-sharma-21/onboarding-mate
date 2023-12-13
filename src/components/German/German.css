@@ -1,3 +1,6 @@
+p{
+    font-family: 'Merriweather';
+}
 .german-section{
     /* padding-top: 100px;
     padding-bottom: 100px; */
@@ -50,7 +53,7 @@ width: fit-content;
 .german-card{
     background-color: #efb44b;
     border-color: #fff!important;
-    padding: 10px;
+    padding: 20px 40px ;
     border-radius: 50px;
     text-align: center;
     border: 1.5px solid white ;
@@ -158,4 +161,30 @@ width: fit-content;
     font-size: 16px;
 }
 
+}
+
+
+
+@media screen and (max-width:644px){
+   .german-section{
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 100px 0px;
+   } 
+   .german-desc h2{
+    font-size: 2rem;
+   }
+}
+
+
+@media only screen and (max-width: 650px){
+    .insurance-section-main-div{
+        flex-wrap: wrap;
+    }
+    .insurance-section-main-div .left-section {
+        width: unset
+    }
+    .insurance-section-main-div .right-section {
+        width: unset;
+    }
 }

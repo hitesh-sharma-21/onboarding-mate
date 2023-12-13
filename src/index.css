@@ -1,13 +1,38 @@
-*{
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Merriweather:wght@300;400;700&display=swap");
+
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: Lato,serif;
+  font-family: Lato, serif;
 }
-:root{
+
+body {}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Lato", serif;
+  /* color: #A8864B; */
+  margin-top: 0px;
+  font-weight: 700;
+  text-transform: normal;
+}
+
+body {
+  font-family: Merriweather, Georgia, serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+:root {
   --lightyellow: #faf7e6;
-  --heading:#a8864b;
-  --darkyellow:#efb44b;
-  --white :#fff;
-  --pcolor :#686868;
+  --heading: #a8864b;
+  --darkyellow: #efb44b;
+  --white: #fff;
+  --pcolor: #686868;
 }

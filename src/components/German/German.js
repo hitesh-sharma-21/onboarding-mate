@@ -5,6 +5,8 @@ import mt from '../../assests/money-transfer.6032ed3d6f67213f2318.jpg';
 function German() {
     return (
         <>
+        <div className="german">
+
             <div className="german-section">
                 <div className="german-desc">
                     <h2>Learn German Free Online</h2>
@@ -43,6 +45,7 @@ function German() {
                     </div>
                 </div>
             </div>
+        </div>
 
             <div className="insurance-section-parent-div">
                 <div className="insurance-section-main-div">

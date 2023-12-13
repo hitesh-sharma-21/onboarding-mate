@@ -85,7 +85,7 @@ function Services() {
                 </div>
                  <div className="card-heading"><h3>{user.title}</h3></div>
                  <div className="card-desc"><p>{user.description}</p></div>
-                 <button className="card-btn">Read More</button>
+                 <button className="card-btn">Read More <i class="fa-regular fa-greater-than fa-sm"></i></button>
                </div>
       ))}
         <div className="l-card">

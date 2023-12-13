@@ -8,7 +8,7 @@ function Nav() {
       <header>
       <div className="wrapper">
       <div className="logo">
-      <img src={logo} alt="" srcset="" width="120px"/>
+      <img src={logo} alt="" srcset="" width="135px"/>
       </div>
       <ul className="nav-links">
       <li><a href="">Home</a></li>
