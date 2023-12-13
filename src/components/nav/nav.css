@@ -1,52 +1,110 @@
-.before-nav{
+.before-nav {
     background: var(--heading);
     padding-bottom: 10px;
 }
-header{
+
+header {
     max-width: 87vw;
     margin: auto;
 }
-.logo{
+
+.logo {
     width: 30vw;
     display: flex;
     align-items: center;
     justify-content: start;
     /* margin: auto; */
-    margin:auto auto 10px 20px ;
+    margin: auto auto 10px 20px;
 }
-.wrapper{
+
+.wrapper {
     padding-top: 5px;
     margin-left: 40px;
     display: flex;
-    /* justify-content: space-around; */
-    /* flex-direction: column; */
+
     align-items: center;
 }
-.nav-links{
+
+.nav-links {
     margin-right: 30px;
     display: flex;
-    /* align-items: flex-start; */
     padding: 0px 50px;
-    /* justify-content: space-evenly; */
 }
+
 .nav-links li {
     list-style-type: none;
 }
-.nav-links li a{
+
+.nav-links li a {
     font-size: 18px;
     padding: 10px 25px;
     text-decoration: none;
     font-weight: bolder;
     color: var(--heading);
 }
-.nav-links li a:hover{
+
+.nav-links li a:hover {
     color: var(--darkyellow);
 }
+
 @media only screen and (max-width: 953px) {
     .nav-links {
-     display: none !important;
+        display: none !important;
     }
-    .nav-links li a{
-        color: black;
+    #mobile-menu-icon {
+            display: block !important;
     }
-  }
+}
+
+
+/* mega menu csss */
+.mega-menu {
+    margin: auto;
+    width: 70vw;
+    padding-bottom: 20px;
+    border-top: 3px solid var(--darkyellow);
+    border-bottom: 3px solid var(--darkyellow);
+    background: white;
+    color: var(--heading);
+    z-index: 4;
+    top: 0px;
+    right: 20%;
+    display: flex;
+    position: absolute;
+    justify-content: space-around;
+    transition: all 0.5s cubic-bezier(0.4, 0, 1, 1);
+    visibility: hidden;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.mega-menu h3 {
+    font-size: 20px;
+}
+
+.m-flex {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.m-flex h4 {
+    font-size: 22px;
+    padding-top: 20px;
+}
+
+.service-mega-menu:hover .mega-menu {
+    opacity: 1;
+    visibility: visible;
+    top: 115px;
+}
+
+.service-mega-menu {
+    justify-content: space-around;
+}
+
+#mobile-menu-icon  {
+    font-size: 35px;
+    display: none;
+    /* visibility: hidden; */
+}
