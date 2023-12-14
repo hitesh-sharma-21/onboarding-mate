@@ -86,7 +86,7 @@ function Nav() {
       <li>Blogs</li>
       <li>About</li>
       <li>Services</li>
-      <li>Contact</li>
+      <li>Con</li>
     </ul>
   </div>
 </div>
