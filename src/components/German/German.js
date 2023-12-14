@@ -2,7 +2,7 @@ import React from 'react'
 import './German.css';
 import insurancepic from '../../assests/family_insurance.87f8402cfad734ebe435.jpg';
 import mt from '../../assests/money-transfer.6032ed3d6f67213f2318.jpg';
-import ReadMore from '../useful components/ReadMore';
+import ReadMore from '../usefulComponents/ReadMore';
 function German() {
     return (
         <>

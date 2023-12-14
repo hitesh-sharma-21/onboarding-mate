@@ -2,7 +2,7 @@ import React from 'react'
 import './About.css';
 import aboutlg from '../../assests/about-large.jpeg';
 import aboutsm from '../../assests/about-small..png';
-import ReadMore from '../useful components/ReadMore';
+import ReadMore from '../usefulComponents/ReadMore';
 function About() {
   return (
     <>
