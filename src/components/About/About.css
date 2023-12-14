@@ -95,9 +95,19 @@ transition: all .3s ease-out 0s;
     }
 }
 
-@media screen  and (max-width:950px){
+@media screen  and (max-width:1000px){
     .about-section{
             flex-direction: column;
             overflow: hidden;
     }
+    .cards{
+        width: 26vw;
+    }
+            /* top: 0px; */
+.l-card{
+    width: calc(100vw - 45vw);
+}
+.l-card p{
+    font-size: unset;
+}
 }

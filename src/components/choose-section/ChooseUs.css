@@ -70,3 +70,13 @@ width: 80px
     }
     
 }
+@media screen and (max-width:100px){
+   .feature-area{
+    width: unset;
+    padding-left: 0px;
+    padding-right: 0px;
+   }
+    body{
+        display: none;
+    }
+}
