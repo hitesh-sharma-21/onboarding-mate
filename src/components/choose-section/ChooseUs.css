@@ -71,7 +71,7 @@ width: 80px
 }
 @media screen and (max-width:644px){
     .feature-card{
-        width:unset
+        width:84vw
     }
     
 }
