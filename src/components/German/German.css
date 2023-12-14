@@ -2,8 +2,6 @@ p{
     font-family: 'Merriweather';
 }
 .german-section{
-    /* padding-top: 100px;
-    padding-bottom: 100px; */
     background: var(--heading);
     display: flex;
     align-items: center;
@@ -28,7 +26,6 @@ p{
 .german-desc p{
 
     padding-right: 50px;
-    /* padding-bottom: 40px; */
     font-size: 17px;
 }
 
@@ -55,12 +52,10 @@ p{
     gap: 30px;
 }
 
-/* insurance section */
 .insurance-section-main-div{
     padding: 100px 0px;
     display: flex;
     gap: 5vw;
-    /* flex-wrap: wrap; */
     width: 80vw;
     margin: auto;
 }
@@ -92,7 +87,6 @@ p{
     font-size: 45px;
 }
 .insurance-section-main-div .right-section p{
-    /* line-height: 2rem; */
     font-size: 18px;
     font-family: ' Merriweather, Georgia, '
 }

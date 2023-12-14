@@ -52,7 +52,6 @@ const faq_data=[
 ]
 
 function Faqs() {
-    // const [toggleFaq, setToggleFaq] = useState(false)
     const faq_style={
         backgroundColor:'white',
         color:'var(--heading)',

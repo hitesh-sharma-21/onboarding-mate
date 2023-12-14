@@ -1,20 +1,18 @@
 .contact-section{
 padding: 0px 0px;
-/* width:100vw; */
+
 background-color: #a8864b;
     color: #fff;
     margin-top: 30px;
-    /* height: 100vh; */
+
 }
 .contact-main-div{
-    /* width: 80%; */
-    /* background: black; */
+
     display: flex;
     height: 100%;
 }
 .contact-left{
     width: 50%;
-    /* height: 100%;         */
 }
 .contact-right{
     width: 50%;
@@ -78,13 +76,6 @@ input[type=text], select, textarea {
   }
 
 
-/* 
-  .container {
-    border-radius: 5px;
-    /* background-color: #f2f2f2; */
-    /* padding: 20px; */
-  /* } */ 
-
   .row {
     display: flex;
     justify-content: space-between;
@@ -96,9 +87,8 @@ input[type=text], select, textarea {
 
   @media only screen and (max-width: 770px) {
    .contact-main-div{
-    /* flex-wrap: wrap; */
     flex-direction: column;
-    /* flex-direction: column-reverse; */
+  
    }
    .contact-left,.contact-right{
     width: unset;

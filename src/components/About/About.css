@@ -2,7 +2,6 @@
     padding-top: 100px;
     padding-bottom: 100px;
     display: flex;
-    /* margin: 0px 60px; */
     gap: 60px;
     width: 80vw;
     margin: auto;
@@ -32,8 +31,6 @@
     height: unset;
     position: relative;
     height: calc(354px - 30px);
-    /* animation: moveupdown 2s  linear delay infinite direction fill-mode;
-    animation: name duration timing-function delay iteration-count direction fill-mode; */
     animation-timing-function: linear;
     animation-duration: 2s;
     animation-iteration-count: infinite;
@@ -54,8 +51,6 @@ background: white;
 animation-name:  moveleft;
 animation-duration: 4s;
 animation-iteration-count: infinite;
-/* animation-name: moveupdown; */
-/* z-index: 2; */
 animation-direction: alternate;
 transition: all .3s ease-out 0s;
 }
@@ -89,7 +84,7 @@ transition: all .3s ease-out 0s;
     .cards{
         width: 26vw;
     }
-            /* top: 0px; */
+            
 .l-card{
     width: calc(100vw - 45vw);
 }

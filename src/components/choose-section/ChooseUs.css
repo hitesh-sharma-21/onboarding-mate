@@ -3,7 +3,6 @@
     padding-top: 100px;
     padding-bottom: 100px;
     background:rgb(184,160,119);
-    /* margin-top: 50px; */
 }
 
 .chooseus-section h1 {
@@ -25,7 +24,6 @@ display: flex;
 gap: 20px;
 justify-content: space-around;
 align-items: center;
-/* flex-wrap: wrap; */
 }
 .feature-card{
     box-shadow: 0 3px 81px 0 #00000017;
