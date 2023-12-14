@@ -1,4 +1,4 @@
-import React, { Children } from 'react'
+import React from 'react'
 import './Faqs.css';
 import 'react-accessible-accordion/dist/fancy-example.css';
 import {
@@ -52,22 +52,34 @@ const faq_data=[
 ]
 
 function Faqs() {
+    // const [toggleFaq, setToggleFaq] = useState(false)
+    const faq_style={
+        backgroundColor:'white',
+        color:'var(--heading)',
+        fontWeight:'600',
+        fontSize: '20px',
+        display: 'flex',
+    flexDirection: 'row-reverse',
+    justifyContent: 'space-between',
+    marginBottom:'15px',
+
+            };
   return (
  <>
   <div className="faqs-section">
     <h3>FAQs</h3>
     <div className="faqs-container">
-    <Accordion>
+    <Accordion  style={{'border':'none'}}>
         {faq_data.map((faqs)=>{
             return(
                 <>
-                <AccordionItem>
+                <AccordionItem style={{border:'none'}}>
                 <AccordionItemHeading>
-                    <AccordionItemButton>
+                    <AccordionItemButton style={faq_style}>
                 {faqs.question}
                     </AccordionItemButton>
                 </AccordionItemHeading>
-                <AccordionItemPanel>
+                <AccordionItemPanel style={{boderTop:'1px solid black'}}>
                     <p>
                         {faqs.answer}
                     </p>

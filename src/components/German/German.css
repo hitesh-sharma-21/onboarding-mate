@@ -31,20 +31,7 @@ p{
     /* padding-bottom: 40px; */
     font-size: 17px;
 }
-.german-section .read-more, .insurance-section-main-div .right-section .read-more{
-    background-color: #efb44b!important;
-border: 1px solid #fff;
-border-radius: 50px!important;
-color: #fff!important;
-display: inline-block;
-font-family: Lato,serif;
-font-size: 18px;
-font-weight: 700;
-line-height: 1;
-padding: 22px 40px!important;
-text-transform: uppercase;
-width: fit-content;
-}
+
 .german-services{
     display: flex;
     flex-direction: column;

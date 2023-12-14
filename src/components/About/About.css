@@ -35,7 +35,7 @@
     /* animation: moveupdown 2s  linear delay infinite direction fill-mode;
     animation: name duration timing-function delay iteration-count direction fill-mode; */
     animation-timing-function: linear;
-    animation-duration: 3s;
+    animation-duration: 2s;
     animation-iteration-count: infinite;
     animation-name: moveupdown;
     z-index: 2;
@@ -63,20 +63,6 @@ transition: all .3s ease-out 0s;
     height: 354px;
 }
 
-.about-desc .read-more{
-    background-color: #efb44b!important;
-    border: 1px solid #fff;
-    border-radius: 50px!important;
-    color: #fff!important;
-    display: inline-block;
-    font-family: Lato,serif;
-    font-size: 18px;
-    font-weight: 700;
-    line-height: 1;
-    padding: 22px 40px!important;
-    text-transform: uppercase;
-    width: fit-content;
-}
 
 @keyframes moveupdown {
     from{
