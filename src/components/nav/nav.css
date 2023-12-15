@@ -113,6 +113,7 @@ header {
 #mobile-menu-icon  {
     font-size: 35px;
     display: none;
+    align-self: center;
 
 }
 .mobile-menu ul li{
@@ -133,7 +134,6 @@ header {
     width: 40%;
     opacity: 1;
     transition: all 0.3s;
-    /* visibility: hidden; */
 }
 .close-menu-icon{
     position: absolute;
