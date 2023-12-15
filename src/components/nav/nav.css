@@ -122,7 +122,6 @@ header {
     /* position: relative; */
 }
 .mobile-menu{
-    /* display: none; */
     position: fixed;
     background-color: var(--heading);
     color: white;
@@ -132,13 +131,25 @@ header {
     top: 0px;
     right: 0px;
     width: 40%;
+    opacity: 1;
+    transition: all 0.3s;
+    /* visibility: hidden; */
 }
 .close-menu-icon{
-
     position: absolute;
     top: 6px;
     left: 0px;
 }
 .mobile-nav{
     transition: 0.3s;
+}
+.hide_menu{
+    visibility: hidden;
+    opacity: 0;
+    transition: all 0.3s ease;
+}
+.show_menu{
+    visibility: visible;
+    opacity: 1;
+    transition: all 0.3s ease;
 }

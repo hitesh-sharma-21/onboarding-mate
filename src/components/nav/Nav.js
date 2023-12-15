@@ -3,14 +3,16 @@ import './nav.css';
 import logo from '../../assests/onboarding-mate-logo.png';
 function Nav() {
   const [toggleBtn, setToggleBtn] = useState(false);
+
   const toggleFun=(e)=>{
     e.preventDefault();
-    setToggleBtn(true)
-  }
-  const closeFun=()=>{
-    setToggleBtn(false)
-  }
-  console.log(toggleBtn)
+      setToggleBtn(!toggleBtn)
+   }
+    // setToggleBtn(true)
+  // }
+  // const closeFun=()=>{
+  //   setToggleBtn(false)
+  // }
   return (
     <>
       <div className="before-nav"></div>
@@ -75,12 +77,11 @@ function Nav() {
         </div>
 
 {
-  toggleBtn &&
-  <div className='mobile-nav'>
+  <div className={`mobile_menu ${toggleBtn === true ? 'show_menu':'hide_menu'}`}>
 
   <div className="mobile-menu">
     <div className="close-menu-icon">
-    <span onClick={closeFun}>❌</span>
+    <span onClick={toggleFun}>❌</span>
     </div>
     <ul>
       <li>Home</li>
