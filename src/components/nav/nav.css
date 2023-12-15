@@ -20,7 +20,6 @@ header {
 
 .wrapper {
     padding-top: 5px;
-    /* margin-left: 40px; */
     display: flex;
     max-width: 82.5vw;
     margin: auto;
@@ -28,7 +27,6 @@ header {
 
 .nav-links {
     margin: 35px 37px auto auto;
-    /* margin-right: 30px; */
     display: flex;
     padding: 0px 30px;
 }
@@ -40,7 +38,6 @@ header {
 .nav-links li a {
     font-size: 18px;
    padding:  10px 25px 10px 23px;
-    /* padding-left: 30px; */
     text-decoration: none;
     font-weight: bolder;
     color: var(--heading);
@@ -120,7 +117,6 @@ header {
     list-style-type: none;
     margin-top: 20px;
     padding-bottom: 20px;
-    /* position: relative; */
 }
 .mobile-menu{
     position: fixed;
