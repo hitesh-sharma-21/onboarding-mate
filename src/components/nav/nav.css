@@ -9,25 +9,28 @@ header {
 }
 
 .logo {
+    padding-top: 5px;
+    padding-bottom: 2px;
     width: 30vw;
     display: flex;
     align-items: center;
     justify-content: start;
-    margin: auto auto 10px 20px;
+    margin: auto auto 2px 13px;
 }
 
 .wrapper {
     padding-top: 5px;
-    margin-left: 40px;
+    /* margin-left: 40px; */
     display: flex;
-
-    align-items: center;
+    max-width: 82.5vw;
+    margin: auto;
 }
 
 .nav-links {
-    margin-right: 30px;
+    margin: 35px 37px auto auto;
+    /* margin-right: 30px; */
     display: flex;
-    padding: 0px 50px;
+    padding: 0px 30px;
 }
 
 .nav-links li {
@@ -36,10 +39,12 @@ header {
 
 .nav-links li a {
     font-size: 18px;
-    padding: 10px 25px;
+   padding:  10px 25px 10px 23px;
+    /* padding-left: 30px; */
     text-decoration: none;
     font-weight: bolder;
     color: var(--heading);
+    font-family: 'Merriweather';
 }
 
 .nav-links li a:hover {

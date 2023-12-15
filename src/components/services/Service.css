@@ -78,7 +78,7 @@ transition: 0.2s;
 }
 .service-cards :hover .card-btn{
 color: white;
-
+margin-top: 9px;
 border: 2px solid #fff;
 border-radius: 50px;
 padding: 15px 25px;
@@ -101,7 +101,6 @@ padding: 15px 25px;
     font-size: 30px;
 }
 .l-card p{
-    font-size: 20px;
     padding-top: 30px;
     padding-bottom: 30px;
 }
