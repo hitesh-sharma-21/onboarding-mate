@@ -157,5 +157,7 @@ padding: 15px 25px;
     .cards{
         width: 100vw;
     }
-    
+    .l-card button{
+        font-size: unset;
+    }   
 }

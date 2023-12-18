@@ -86,21 +86,7 @@ function Nav() {
       <li>Counsellor</li>
       <li>Blogs</li>
       <li>About</li>
-      <li>Services -&gt;
-        <div className="mobile-mega-menu">
-                      <h4>Insurance</h4>
-          <div >
-                      <li>Public health</li>
-                      <li>Private health</li>
-                      <li>Liability</li>
-                      <li>HouseHold</li>
-                      <li>Public health</li>
-                      <li>Private health</li>
-                      <li>Liability</li>
-                      <li>HouseHold</li>
-                      <li>HouseHold</li>
-          </div>
-        </div>
+      <li>Services <span>&gt;</span>
       </li>
       <li>Con</li>
     </ul>
