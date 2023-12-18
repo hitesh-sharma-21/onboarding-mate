@@ -9,6 +9,7 @@ import German from './components/German/German';
 import ContactUs from './components/ContactUs/ContactUs';
 import Footer from './components/Footer/Footer';
 import Faqs from './components/Faqs/Faqs';
+import ScrollToTop from './components/usefulComponents/ScrollToTop';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
   <ContactUs/>
   <Faqs/>
   <Footer/>
+  <ScrollToTop/>
   </>
   );
 }

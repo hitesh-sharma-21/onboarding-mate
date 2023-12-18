@@ -56,3 +56,18 @@ body {
   line-height: 2rem;
  }
 }
+
+#scroll-to-top{
+  height: 50px;
+  width: 50px;
+  background-color: var(--darkyellow);
+  position:fixed;
+  bottom: 30px;
+  right: 30px;
+  box-shadow: 0 9px 25px 0 rgba(132, 128, 177, 0.28);
+  border-radius: 10px;
+}
+#scroll-to-top span{
+  display: inline-block;
+  padding: 7px;
+}
