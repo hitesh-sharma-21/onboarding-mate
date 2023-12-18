@@ -18,11 +18,11 @@ function Nav() {
       <div className="before-nav"></div>
       <header>
         <div className="wrapper">
-          <div className="logo">
+          <div className="logo" id='main-section'>
             <img src={logo} alt="" srcset="" width="138px" />
           </div>
           <ul className="nav-links">
-            <li><a href="">Home</a></li>
+            <li><a href="#">Home</a></li>
             <li><a href="">About</a></li>
             <li><a href="">Blogs</a></li>
             <li><a href="">Counsellor</a></li>
