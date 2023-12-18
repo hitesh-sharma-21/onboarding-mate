@@ -59,6 +59,12 @@ input[type=text], select, textarea {
     margin-bottom: 16px;
     /* resize: vertical; */
   }
+.select-list{
+  color: white !important;
+  background: var(--darkyellow) !important;
+  font-weight: bolder !important;
+  font-size: 18px;
+}
   ::placeholder {
     color: var(--darkyellow);
     font-size: 20px;

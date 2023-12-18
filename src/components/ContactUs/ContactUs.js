@@ -23,8 +23,8 @@ function ContactUs() {
                     </div>
 
                     <div>
-                      <select id="country" name="insurance" placeholder='insurance'>
-
+                      <select className='select-list'  name="insurance" placeholder='insurance'>
+                        <option value="Insurance" checked> Insurance</option>
                       </select>
                     </div>
                   </div>
@@ -45,7 +45,6 @@ function ContactUs() {
 
                   <textarea id="subject" name="subject" placeholder="Write something.." rows={'4'}></textarea>
 
-                  {/* <input type="submit" value="Submit"/> */}
                   <button> SEND YOUR QUERY</button>
                 </form>
               </div>
