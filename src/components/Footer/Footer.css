@@ -13,7 +13,7 @@
     gap: 20px;
 }
 .footer-section{
-    padding: 100px 5vw;
+    padding: 100px 6vw;
     background-color: var(--heading);
     color: white;
     display: flex;
@@ -34,6 +34,9 @@ gap: 60px;
     flex-direction: column;
     gap: 30px;
     width: 40%;
+}
+.quick-links{
+    align-items: center;
 }
 .footer-section ul li{
     list-style: none;
@@ -86,6 +89,15 @@ position: absolute;
     .footer-flex {
          width: unset;
         }
+        .quick-links{
+            align-items: unset;
+        }
+}
+
+@media screen and (max-width:769px) {
+    .first-section{
+        padding: 80px 3vw;
+    }
 }
 @media only screen and (max-width: 650px){
     .footer-section{

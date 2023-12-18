@@ -99,6 +99,7 @@ padding: 15px 25px;
 }
 .l-card h3{
     font-size: 30px;
+    font-weight: 400;
 }
 .l-card p{
     padding-top: 30px;
@@ -133,6 +134,11 @@ padding: 15px 25px;
     }
     .l-card {
         width: auto !important
+    }
+    .heading{
+            padding-top: unset;
+            margin-bottom: unset;
+        
     }
 }
 @media only screen and (max-width: 1199px) {

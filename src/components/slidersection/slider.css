@@ -2,8 +2,6 @@ h4,p{
     font-family: 'Merriweather';
 }
 .slider{
-    /* height:  1113px; */
-    /* width: 100vw; */
     padding-top: 380px;
     padding-bottom: 110px;
     background-color: rgb(250, 247, 230);
@@ -81,6 +79,9 @@ h4,p{
     .slides {
      grid-template-columns: 1fr;
      gap: 25px;
+    }
+    .slider{
+        padding-top: 100px;
     }
   }
   

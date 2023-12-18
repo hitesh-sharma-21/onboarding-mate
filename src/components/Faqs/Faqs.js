@@ -61,7 +61,6 @@ function Faqs() {
     flexDirection: 'row-reverse',
     justifyContent: 'space-between',
     marginBottom:'15px',
-
             };
   return (
  <>
@@ -74,7 +73,7 @@ function Faqs() {
                 <>
                 <AccordionItem style={{border:'none'}}>
                 <AccordionItemHeading>
-                    <AccordionItemButton style={faq_style}>
+                    <AccordionItemButton  style={faq_style}>
                 {faqs.question}
                     </AccordionItemButton>
                 </AccordionItemHeading>

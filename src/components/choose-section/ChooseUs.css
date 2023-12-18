@@ -52,6 +52,7 @@ align-items: center;
 width: 80px
 }
 .feature-card p{
+    text-align: center;
     padding-left: 30px;
     padding-right: 30px;
 }
@@ -77,8 +78,9 @@ width: 80px
 }
 @media screen and (max-width:1100px){
    .feature-area{
+
     flex-wrap: wrap;
-    width: unset;
+    width: 90vw;
     padding-left: 0px;
     padding-right: 0px;
    }

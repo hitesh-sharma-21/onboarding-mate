@@ -75,10 +75,15 @@ transition: all 0.3s linear;
     }
 }
 
-@media screen  and (max-width:1000px){
+@media screen  and (max-width:1025px){
     .about-section{
             flex-direction: column;
             overflow: hidden;
+            width: unset;
+            align-items: center;
+    }
+    .about-desc{
+        align-items: center;
     }
     .cards{
         width: 40vw;

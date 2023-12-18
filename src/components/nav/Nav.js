@@ -77,9 +77,7 @@ function Nav() {
         </div>
 
 {
-  <div className={`mobile_menu ${toggleBtn === true ? 'show_menu':'hide_menu'}`}>
-
-  <div className="mobile-menu">
+  <div className={`mobile-menu ${toggleBtn === true ? 'show_menu':'hide_menu'}`}>
     <div className="close-menu-icon">
     <span onClick={toggleFun}>❌</span>
     </div>
@@ -92,7 +90,6 @@ function Nav() {
       <li>Con</li>
     </ul>
   </div>
-</div>
 }
 
       </header>

@@ -84,6 +84,17 @@ input[type=text], select, textarea {
   .row > div {
     width: 48%; 
   }
+@media screen and (max-width :1025px) {
+    .row > div {
+        width: 100%;
+      }
+    .row{
+        flex-direction: column;
+    }
+    .contact-right{
+        padding: 30px 60px;
+    }
+}
 
   @media only screen and (max-width: 770px) {
    .contact-main-div{
