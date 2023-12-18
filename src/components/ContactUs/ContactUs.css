@@ -60,8 +60,8 @@ input[type=text], select, textarea {
     /* resize: vertical; */
   }
 .select-list{
-  color: white !important;
-  background: var(--darkyellow) !important;
+  color: white;
+  background: var(--darkyellow);
   font-weight: bolder !important;
   font-size: 18px;
 }
