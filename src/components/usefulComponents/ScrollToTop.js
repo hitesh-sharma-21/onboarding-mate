@@ -1,9 +1,6 @@
 import React from 'react'
 
-function ScrollToTop() {
-    window.onscroll = function(e) {
-        console.log(e)
-    }
+
   return (
    <>
        <div id="scroll-to-top">
