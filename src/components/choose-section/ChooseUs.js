@@ -36,7 +36,7 @@ function ChooseUs() {
         <h1>Why Choose Us</h1>
         <div className="feature-area">
             {data.map((card) => (
-               <div className="feature-card">
+               <div className="feature-card" key={card.id}>
                <div className="feature-card-logo">
                    <img src={card.img} alt="" />
                </div>

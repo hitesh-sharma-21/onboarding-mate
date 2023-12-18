@@ -35,7 +35,7 @@ function SliderSection() {
               slider_data.map((data) => {
 
                 return(
-                        <div className="slide-card">
+                        <div className="slide-card" key={data.id}>
                         <div className="slide-card-image">
                           <img src={data.img} alt="" />
                           <div className="slider-card-content">

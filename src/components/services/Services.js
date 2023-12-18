@@ -80,12 +80,12 @@ function Services() {
       <div className="heading"><h1>Our Service</h1></div>
       <div className="service-cards">
       {data.map((user) => (
-               <div className="cards">
+               <div className="cards" key={user.id}>
                 <div className="card-logo"><img src={user.img} height='64px' alt="" />
                 </div>
                  <div className="card-heading"><h3>{user.title}</h3></div>
                  <div className="card-desc"><p>{user.description}</p></div>
-                 <button className="card-btn">Read More <i class="fa-regular fa-greater-than fa-sm"></i></button>
+                 <button className="card-btn">Read More <i className="fa-regular fa-greater-than fa-sm"></i></button>
                </div>
       ))}
         <div className="l-card">

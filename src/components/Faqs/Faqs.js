@@ -71,7 +71,8 @@ function Faqs() {
         {faq_data.map((faqs)=>{
             return(
                 <>
-                <AccordionItem style={{border:'none'}}>
+                 <div key={faqs.id}>
+                <AccordionItem style={{border:'none'}} key={faqs.id}>
                 <AccordionItemHeading>
                     <AccordionItemButton  style={faq_style}>
                 {faqs.question}
@@ -83,6 +84,7 @@ function Faqs() {
                     </p>
                 </AccordionItemPanel>
             </AccordionItem>
+                 </div>
                 </>
             )
     })}

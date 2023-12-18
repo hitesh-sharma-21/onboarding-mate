@@ -20,7 +20,7 @@ function German() {
                     <div className="german-card">
                         <div className="german-card-body">
                             <p className="card-text">
-                                <p>A1, A2 Basic user</p>
+                                A1, A2 Basic user
                                 
                             </p>
                         </div>
@@ -28,21 +28,21 @@ function German() {
                     <div className="german-card">
                         <div className="german-card-body">
                             <p className="card-text">
-                                <p>B1, B2 Independent user </p>
+                                B1, B2 Independent user
                             </p>
                         </div>
                     </div>
                     <div className="german-card">
                         <div className="german-card-body">
                             <p className="card-text">
-                                <p>C1, C2 Proficient user</p>
+                                C1, C2 Proficient user
                             </p>
                         </div>
                     </div>
                     <div className="german-card">
                         <div className="german-card-body">
                             <p className="card-text">
-                                <p>For teachers</p>
+                                For teachers
                             </p>
                         </div>
                     </div>
