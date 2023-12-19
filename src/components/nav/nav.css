@@ -43,7 +43,10 @@ header {
     color: var(--heading);
     font-family: 'Merriweather';
 }
-
+.m-flex li:hover{
+    color: var(--darkyellow);
+    transition: all 0.2s;
+}
 .nav-links li a:hover {
     color: var(--darkyellow);
 }
@@ -128,6 +131,8 @@ header {
     top: 0px;
     right: 0;
     transition: all 0.4s ;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
 }
 .close-menu-icon{
     position: absolute;
@@ -146,4 +151,7 @@ header {
     display: block;
     opacity: 1;
     transition: all 0.4s;
+}
+.mobile-mega-menu li{
+    padding-bottom: 0px !important;
 }

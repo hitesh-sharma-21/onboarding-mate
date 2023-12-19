@@ -80,13 +80,14 @@ function Services() {
       <div className="heading"><h1>Our Service</h1></div>
       <div className="service-cards">
       {data.map((user) => (
-               <div className="cards" key={user.id}>
-                <div className="card-logo"><img src={user.img} height='64px' alt="" />
-                </div>
-                 <div className="card-heading"><h3>{user.title}</h3></div>
-                 <div className="card-desc"><p>{user.description}</p></div>
-                 <button className="card-btn">Read More <i className="fa-regular fa-greater-than fa-sm"></i></button>
+               <div className="cards" key={user.id} id={user.id}>
+                  <div className="card-logo"><img src={user.img} height='64px' alt="" />
+                  </div>
+                  <div className="card-heading"><h3>{user.title}</h3></div>
+                  <div className={`card-desc ${user.id===9?'sm-font':''}`}><p>{user.description}</p></div>
+                  <button className="card-btn">Read More <span> <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M256 8c137 0 248 111 248 248S393 504 256 504 8 393 8 256 119 8 256 8zm113.9 231L234.4 103.5c-9.4-9.4-24.6-9.4-33.9 0l-17 17c-9.4 9.4-9.4 24.6 0 33.9L285.1 256 183.5 357.6c-9.4 9.4-9.4 24.6 0 33.9l17 17c9.4 9.4 24.6 9.4 33.9 0L369.9 273c9.4-9.4 9.4-24.6 0-34z"></path></svg> </span></button>
                </div>
+           
       ))}
         <div className="l-card">
                 <h3>We are professional <span>Onboarding providing service</span></h3>

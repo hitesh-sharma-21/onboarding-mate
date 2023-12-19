@@ -12,6 +12,13 @@
     display: inline-block;
     padding: 7px;
 }
+.social-media-icons{
+    display: flex;
+    gap: 8px;
+}
+.social-media-icons a:hover .social-media-icons svg{
+    color: black;
+}
 .footer-section p{
     font-family: 'Merriweather';
 }
@@ -48,6 +55,11 @@ gap: 60px;
     flex-direction: column;
     gap: 30px;
     width: 40%;
+}
+
+.footer-flex li :hover{
+
+    color: #efb44b;
 }
 .quick-links{
     align-items: center;
@@ -90,7 +102,13 @@ position: absolute;
 .our-services .footer-flex{
     width: auto;
 }
-
+.footer-flex li{
+    cursor: pointer;
+}
+.footer-flex li:hover{
+    transition: all 0.2s;
+    color: var(--darkyellow) !important;
+}
 @media only screen and (max-width: 1102px){
     .footer-section{
         flex-direction: row;

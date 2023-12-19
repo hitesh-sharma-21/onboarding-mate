@@ -34,6 +34,10 @@ p{
     flex-direction: column;
     gap: 20px;
 }
+.card-text{
+    display: flex;
+    gap: 9px;
+}
 .german-card{
     background-color: #efb44b;
     border-color: #fff!important;

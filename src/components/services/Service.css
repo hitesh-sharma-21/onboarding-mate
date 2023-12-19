@@ -4,7 +4,7 @@
 }
 .heading{
     padding-top: 50px;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
     height: 200px;
     display: flex;
     align-items: center;
@@ -15,9 +15,9 @@
 .service-cards{
 display: flex;
 flex-wrap: wrap;
-max-width:85vw;
 margin: auto;
-gap: 20px;
+justify-content: center;
+gap: 25px;
 }
 .card-logo{
     background-color: #faf7e6;
@@ -29,7 +29,6 @@ gap: 20px;
     display: flex;
     transform: rotate(-45deg);
     border-radius: 2px;
-    position: relative;
     border-radius: 17px;    
 }
 .card-logo img{
@@ -48,11 +47,15 @@ gap: 20px;
     padding: 25px 25px;
     transition: .3s;
     width: 20vw;
+    min-height: 455px;
     background-color: #e5e2c8;
 }
 .card-desc{
     color: var(--pcolor);
     line-height: 28px;
+}
+.sm-font{
+    font-size: 14px;
 }
 .card-btn{
     font-family :Merriweather, Georgia, serif;
@@ -65,7 +68,12 @@ padding-top: 20px;
 border: none;
 text-align: start;
 margin-bottom: 25px;
-transition: 0.2s;
+display: flex;
+align-items: center;
+gap: 6px;
+}
+.card-btn span{
+    display: flex;
 }
 .service-cards :hover{
     background-color: #efb44b;
@@ -131,6 +139,7 @@ padding: 15px 25px;
     }
     .cards{
         width: 80vw !important;
+        min-height: unset;
     }
     .l-card {
         width: auto !important
